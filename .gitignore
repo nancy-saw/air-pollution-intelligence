@@ -1,0 +1,32 @@
+
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Dataset files
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Machine learning models
+*.pkl
+*.joblib
+
+# System files
+.DS_Store
+Thumbs.db
